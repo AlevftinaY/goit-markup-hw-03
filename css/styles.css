@@ -73,11 +73,11 @@ aside-title
 
 .menu-link:hover,
 .menu-link:focus {
-    color:var(--active-color)
+    color:var(--active-color);
 }
 
 .container {
-    width: 1430px;
+    width: 1160px;
     padding-left: 15px;
     padding-right: 15px;
     
