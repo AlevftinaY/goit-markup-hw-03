@@ -209,16 +209,18 @@ gap: 24px;
     color: var(--main-text-color);
 }
 
-/*----------------Section3---------*/
+/*----------------Section3-------------*/
 .aside {
     display: flex;
+    padding-top: 120px;
     padding-bottom: 24px;
 }
 .aside-list {
     display: flex;
     padding-bottom: 24px;
+    padding-top: 72px;
 }
-
+/*----------------end--Section3---------*/
 
  .btn-main {
     font-family: "Roboto", sans-serif;
