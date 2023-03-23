@@ -13,10 +13,15 @@
     margin: 0;
 }
 
-ul {
+ul, li {
     margin: 0;
     padding-left: 0;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
 }
+
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -24,15 +29,28 @@ body {
     font-size: 16px;
     color:var(--main-text-color);
     background-color:var(--hero-text-color);
-    
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid transparent;
+}
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 /*
 .page-header {}
-aside-title
+aside-title*/
 
-.page-nav {}*/
-
+.page-nav {
+    display:flex;
+    align-items: center;
+}
 
 .logo {
     color:var(--iris-color);
@@ -45,19 +63,14 @@ aside-title
     text-decoration: none;
 }
 
-.link {
-    text-decoration: none;
-}
 
 .logo-dark {
     color: var(--navy-blue-color)
 }
 
-/*.menu {}*/
 
-.list {
-    list-style: none;
-    cursor: pointer;
+.menu {
+    display: flex;
 }
 
 /*.menu-item {}*/
@@ -76,12 +89,7 @@ aside-title
     color:var(--active-color);
 }
 
-.container {
-    width: 1160px;
-    padding-left: 15px;
-    padding-right: 15px;
-    
-}
+
 
 /*---------------- CONTACT -----------------*/
 
@@ -110,7 +118,7 @@ background: var(--navy-blue-color);
 .hero-list {}
 line-height: 1.5;
 letter-spacing: 0.02em;
-.menu {}
+
 .list {}
 
 */
@@ -186,16 +194,8 @@ font-weight: 500;
 }
 
 /*----------------Section3---------*/
-.aside-title {
+/*.aside-title {
 
-}
-
-/*.aside-list{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--navy-blue-color);
 }*/
 
  .btn-main {
@@ -266,35 +266,19 @@ background-color: #FFFFFF;
 .heading-list {
 visibility: hidden;
 }
- 
+
+ /*
+.filtr-projc
+
+
 .filtr-cnt {
-text-decoration: none;
+
 }
 
-filtr-text
+.filtr-text*/
 
-/*heading-list:hidden {}*/
 
  /*=====================Підваал======================*/
-
-/*
---navy-blue-color: #2e2f42;
-    --main-text-color: #434455;
-    --iris-color: #4d5ae5;
-    --active-color: #404bbf;
-    --background-color: #f4f4fd;
-    --border-solid: #e7e9fc;
-    
-
-
-.footer-logo {
-    font-family: 'Raleway' sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: calc(21 / 18);
-    letter-spacing: 0.03em;
-    color: #4D5AE5;
-    background: #2E2F42;*/
 
 .footer {
     background-color: var(--navy-blue-color);
