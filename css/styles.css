@@ -271,7 +271,7 @@ background-color: #F4F4FD
     padding-top: 120px;
     padding-bottom: 72px;
 }
- .team-desc {
+ .team-desc, .filtr-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-bottom: 32px;
@@ -295,9 +295,9 @@ background-color: #FFFFFF;
     visibility: hidden;
     }
 
-.team-item-title{
+.team-item-title, .filtr-item{
     padding-top: 32px;
-    padding-bottom: px;
+    padding-bottom: 8px;
     
 }
 menu
@@ -321,16 +321,24 @@ menu
     justify-content: center;
     align-items: center;
     padding: 96px 72px;
+}
 
-
+.filtr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .btn-main {
     padding: 12px 24px;
         border-radius: 4px;
         border: 1px solid var(--border-solid);
-
 }
+
+.menu-link {
+    padding-top: 48px;
+}
+
  /*
 .filtr-projc
 .filtr-cnt {}
