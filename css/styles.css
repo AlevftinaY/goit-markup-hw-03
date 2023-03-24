@@ -213,7 +213,7 @@ gap: 24px;
 .aside {
     display: flex;
     padding-top: 120px;
-    padding-bottom: 24px;
+    padding-bottom: 120px;
 }
 .aside-list {
     display: flex;
@@ -261,6 +261,15 @@ gap: 24px;
 background-color: #F4F4FD
 }
 
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+.team-title {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
  .team-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
