@@ -130,7 +130,6 @@ color: var(--main-text-color);
 }
 
 .hero-text {
-    font-family: 'Roboto' sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -217,7 +216,7 @@ gap: 24px;
 }
 .aside-list {
     display: flex;
-    padding-bottom: 24px;
+  
     padding-top: 72px;
     gap: 24px;
 }
@@ -301,7 +300,7 @@ background-color: #FFFFFF;
     padding-bottom: px;
     
 }
-
+menu
  /*====================PORTFOLIO BODY=====================*/
 .visually-hidden {
   position: absolute;
@@ -314,6 +313,23 @@ background-color: #FFFFFF;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.button {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 72px;
+
+
+}
+
+.btn-main {
+    padding: 12px 24px;
+        border-radius: 4px;
+        border: 1px solid var(--border-solid);
+
 }
  /*
 .filtr-projc
@@ -349,46 +365,4 @@ background-color: #FFFFFF;
      color:var(--border-solid);
      background:var(--navy-blue-color);
    
-     /*padding-bottom: 48px;
-        width: 496px;
-        margin: 0 auto;*/
  }
-
-/* .hero {
-     background: var(--navy-blue-color);
-     text-align: center;
-     padding: 188px 0 188px 0;
- }
-
- .hero-desc {
-     color: var(--main-text-color);
-
- }
-
- .hero-text {
-     font-family: 'Roboto' sans-serif;
-     font-weight: 700;
-     font-size: 56px;
-     line-height: 1.07;
-     text-align: center;
-     letter-spacing: 0.02em;
-     color: var(--hero-text-color);
-     padding-bottom: 48px;
-     width: 496px;
-     margin: 0 auto;
- }
-
- .modal-btn {
-     width: 169px;
-     height: 56px;
-     font-family: "Roboto", sans-serif;
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.04em;
-     color: var(--hero-text-color);
-     background: var(--iris-color);
-     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-     border-radius: 4px;
-     border: 1px solid var(--active-color);
- }*/
