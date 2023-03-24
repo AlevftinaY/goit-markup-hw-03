@@ -219,6 +219,7 @@ gap: 24px;
     display: flex;
     padding-bottom: 24px;
     padding-top: 72px;
+    gap: 24px;
 }
 /*----------------end--Section3---------*/
 
@@ -265,6 +266,7 @@ background-color: #F4F4FD
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
+    text-align: center;
 }
 .team-title {
     padding-top: 120px;
@@ -273,6 +275,7 @@ background-color: #F4F4FD
  .team-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
  }
 
 .team-item-title, .filtr-item {
@@ -293,6 +296,12 @@ background-color: #FFFFFF;
     visibility: hidden;
     }
 
+.team-item-title{
+    padding-top: 32px;
+    padding-bottom: px;
+    
+}
+
  /*====================PORTFOLIO BODY=====================*/
 .visually-hidden {
   position: absolute;
@@ -308,19 +317,26 @@ background-color: #FFFFFF;
 }
  /*
 .filtr-projc
-
-
-.filtr-cnt {
-
-}
-
+.filtr-cnt {}
 .filtr-text*/
-
 
  /*=====================Підваал======================*/
 
 .footer {
     background-color: var(--navy-blue-color);
+    text-align:end;
+    padding: 100px 0 100px 0;
+}
+.footer-text {
+    width: 264px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+.container-logo {
+    display: flex;
+    margin-bottom: 16px;
+    
 }
 
  .logo-wiht {
@@ -332,4 +348,47 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
      color:var(--border-solid);
      background:var(--navy-blue-color);
+   
+     /*padding-bottom: 48px;
+        width: 496px;
+        margin: 0 auto;*/
  }
+
+/* .hero {
+     background: var(--navy-blue-color);
+     text-align: center;
+     padding: 188px 0 188px 0;
+ }
+
+ .hero-desc {
+     color: var(--main-text-color);
+
+ }
+
+ .hero-text {
+     font-family: 'Roboto' sans-serif;
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 1.07;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: var(--hero-text-color);
+     padding-bottom: 48px;
+     width: 496px;
+     margin: 0 auto;
+ }
+
+ .modal-btn {
+     width: 169px;
+     height: 56px;
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: var(--hero-text-color);
+     background: var(--iris-color);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;
+     border: 1px solid var(--active-color);
+ }*/
