@@ -348,21 +348,23 @@ menu
 
 .footer {
     background-color: var(--navy-blue-color);
-    text-align:end;
-    padding: 100px 0 100px 0;
+   
+    
 }
 .footer-text {
     width: 264px;
-    padding-bottom: 100px;
     text-align: left;
 }
-
-.container-logo {
-    display: flex;
-    margin-bottom: 16px;
-    
+.container-foot{
+padding: 100px 0 100px 0;
 }
 
+
+.container-logo {
+text-align: left;
+
+    
+}
  .logo-wiht {
     color:var(--background-color);
     color: #f4f4fd;
@@ -372,5 +374,6 @@ menu
     letter-spacing: 0.02em;
      color:var(--border-solid);
      background:var(--navy-blue-color);
+     padding-top: 16px;
    
  }
