@@ -43,12 +43,12 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid #9a3dbc;
+   /* outline: 2px solid #9a3dbc;*/
 }
+
 .header-container {
     display: flex;
     align-items: center;
-  
 }
 
 .page-nav {
@@ -197,7 +197,7 @@ gap: 24px;
 .feature-desc {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+  /*  letter-spacing: 0.02em;*/
     color: var(--main-text-color);
 }
 
