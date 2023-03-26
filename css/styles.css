@@ -26,7 +26,7 @@ a {
 .img {
     display: block;
     max-width: 100%;
-    height
+    height: auto;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: var(--border-solid);
+    border-bottom: 1px solid var(--border-solid);
 }
 
 .container {
@@ -241,6 +241,7 @@ gap: 24px;
  .btn-main:focus {
     color:var(--hero-text-color);
     background:var(--active-color);
+    border: 1px solid var(--border-solid);
  }
 .aside-title, .team-title {
     font-size: 36px;
@@ -276,10 +277,10 @@ padding-bottom: 120px;
 .team-item {
     background-color: #FFFFFF;
     padding-bottom: 32px;
+    border: 1x solid var(--border-solid);
     border-radius: 0px 0px 4px 4px;
-    
 }
- .team-desc, .filtr-text {
+ .team-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
  }
@@ -338,10 +339,9 @@ padding-bottom: 120px;
 }
 
 .img-titl {
-
-    border-left: 1px solid var(--border-solid);
-    border-bottom: 1px solid var(--border-solid);
-    border-right: 1px solid var(--border-solid) ;
+    padding: 32px 16px;
+    border: 1px solid var(--border-solid);
+    border-top: none;
 }
 
 .filtr-item {
@@ -350,11 +350,13 @@ padding-bottom: 120px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
-    padding-top: 32px;
     padding-bottom: 8px;
 }
 
-
+.filtr-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .btn-main {
     padding: 12px 24px;
