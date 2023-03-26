@@ -43,7 +43,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-   /* outline: 2px solid #9a3dbc;*/
+    outline: 2px solid #9a3dbc;
 }
 
 .header-container {
@@ -126,7 +126,6 @@ body {
 
 .hero-desc {
 color: var(--main-text-color);
-
 }
 
 .hero-text {
@@ -136,9 +135,12 @@ color: var(--main-text-color);
     text-align: center;
     letter-spacing: 0.02em;
     color:var(--hero-text-color);
-    padding-bottom: 48px;
     width: 496px;
     margin: 0 auto;
+}
+
+.text-container {
+    margin-bottom: 48px;
 }
 
 .modal-btn {
@@ -330,6 +332,10 @@ background-color: #FFFFFF;
     gap: 24px;
 }
 
+/*.filtr:nth-child(3n) {
+   margin-right: 0;
+}*/
+
 .btn-main {
     padding: 12px 24px;
         border-radius: 4px;
@@ -342,7 +348,7 @@ background-color: #FFFFFF;
 
  /*
 .filtr-projc
-.filtr-cnt {}
+ {}
 .filtr-text*/
 
  /*=====================Підваал======================*/
@@ -364,7 +370,6 @@ padding: 100px 0 100px 0;
 .container-logo {
 text-align: left;
 
-    
 }
  .logo-wiht {
     color:var(--background-color);
@@ -376,5 +381,4 @@ text-align: left;
      color:var(--border-solid);
      background:var(--navy-blue-color);
      padding-top: 16px;
-   
  }
